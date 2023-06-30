@@ -12,4 +12,5 @@ void main() {
   // Simulating button clicks
   buttonClicks.add(null);
   buttonClicks.add(null);
+  buttonClicks.add(null);
 }

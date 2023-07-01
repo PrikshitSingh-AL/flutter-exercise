@@ -3,17 +3,13 @@
 ///have control over. Extensions provide a way to extend the behavior of a class 
 ///without modifying its original implementation or creating a subclass.
 
-class MyClass {
-  // Original class implementation
+void main(){
+  var dup="hello".duplicate();
+  print(dup);
 }
 
-extension MyExtension on MyClass {
-  void additionalMethod() {
-    // Additional functionality
+extension StringDuplicate on String{
+  String duplicate(){
+    return this+this;
   }
-}
-
-void main() {
-  MyClass obj = MyClass();
-  obj.additionalMethod(); // Extension method called on MyClass instance
 }

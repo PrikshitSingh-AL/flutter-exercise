@@ -1,0 +1,9 @@
+name: my_project
+description: A sample Dart project
+version: 1.0.0
+
+environment:
+    sdk: '^3.0.0'
+    
+dependencies:
+    rxdart: ^0.27.7
